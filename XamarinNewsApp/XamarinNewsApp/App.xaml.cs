@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
+using XamarinNewsApp.Views;
 
 namespace XamarinNewsApp
 {
@@ -13,7 +14,7 @@ namespace XamarinNewsApp
         {
             InitializeComponent();
 
-            MainPage = new XamarinNewsApp.MainPage();
+            MainPage = new EditRecipePage();
         }
 
         protected override void OnStart()
